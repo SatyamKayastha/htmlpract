@@ -1,0 +1,15 @@
+table, th, td {border:1px solid black;
+}
+
+.center{
+text-align:center;
+}
+
+.centerBold{
+text-align:center;
+font-weight:bold;
+}
+
+.tableborder{
+border:2px solid black;
+}

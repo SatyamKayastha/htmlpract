@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        #gender{
+
+    margin-bottom: 50px;
+
+        }
+
+        .regform{
+
+    margin-bottom: 200px;
+
+        }
+
+        .regform .labelemial{
+        color:red;
+        }
+        #testdiv div{
+         margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <form>
+                <h1>User Registration</h1><br>
+
+                <hr>
+
+                <h2>Personal Information</h2><br>
+                <div id="testdiv">
+                    <div>
+                        <label>Name: </label>
+                        <input type="text" placeholder="Enter your fullname here."><br>
+                    </div>
+
+                    <div>
+                        <label>Gender: </label>
+                        <input type="radio" value="Male">
+                        <label>Male</label>
+                        <input type="radio" value="Female">
+                        <label>Female</label>
+                        <input type="radio" value="Others">
+                        <label>Others</label><br>
+                    </div>
+                    <div>
+                        <label class="labelemial">E-mail: </label>
+                        <input type="email" placeholder="Enter your e-mail address.">
+                    </div>
+                    <div>
+                        <label>Contact number: </label>
+                        <input type="text" value="+977-"><br></div>
+
+                    <div>
+                        <label>Date of Birth: </label>
+                        <input type="date" placeholder=""><br>
+                    </div>
+
+                    <div>
+                        <label>City: </label>
+                        <select>
+                            <option value="kathmnadu">Kathmandu</option>
+                            <option value="pokhara">Pokhara</option>
+                            <option value="dharan">Dharan</option>
+                            <option value="birgunj">Birgunj</option>
+                            <option value="butwal">Butwal</option>
+                            <option value="biratnagar">Biratnagar</option>
+                            <option value="surkhet">Surkhet</option>
+                            <option value="kusma">Kusma</option>
+                        </select><br>
+                    </div>
+
+                    <hr>
+
+                    <div>
+                        <label>Login Information</label><br>
+                    </div>
+
+                    <div>
+                        <label>Username: </label>
+                        <input type="text" placeholder="Enter your username here."><br>
+                    </div>
+                    <div>
+                        <label>Password: </label>
+                        <input type="password" placeholder="Type your password here."><br>
+                    </div>
+                    <div>
+                        <label>Confirm Password: </label>
+                        <input type="password" placeholder="Re-type your password."><br>
+                    </div>
+                    <div>
+                        <label>UserId Type(Please check on the accounts you want to register.): </label>
+                        <input type="checkbox" value="creator">
+                        <label> Creator </label>
+                        <input type="checkbox" value="customer">
+                        <label> Customer</label><br>
+                    </div>
+                    <hr>
+                    <div style="margin-top: 40px">
+                        <button>
+                            <a href="index.html">Register </a>
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+</div>
+</body>
+</html>
